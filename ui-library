@@ -1,5 +1,5 @@
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
-local PresetColor = Color3.fromRGB(255, 255, 255)
+local PresetColor = Color3.fromRGB(46, 55, 45)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -8,7 +8,7 @@ local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.RightControl
 
 local FluxLib = Instance.new("ScreenGui")
-FluxLib.Name = "paradisehub"
+FluxLib.Name = "Paradise Hub"
 FluxLib.Parent = game.CoreGui
 FluxLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
