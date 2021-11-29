@@ -89,7 +89,7 @@ end
 
 function Flux:Window(text, bottom,mainclr,toclose)
 	CloseBind = toclose or Enum.KeyCode.RightControl
-	PresetColor = mainclr or Color3.fromRGB(255, 255, 255)
+	PresetColor = mainclr or Color3.fromRGB(40, 47, 48)
 	local fs = false
 	local MainFrame = Instance.new("Frame")
 	local MainCorner = Instance.new("UICorner")
