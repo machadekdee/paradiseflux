@@ -1,5 +1,5 @@
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
-local PresetColor = Color3.fromRGB(46, 55, 45)
+local PresetColor = Color3.fromRGB(255, 255, 255)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -139,13 +139,13 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	Title.Name = "Title"
 	Title.Parent = LeftFrame
-	Title.BackgroundColor3 = Color3.fromRGB(0, 232, 255)
+	Title.BackgroundColor3 = Color3.fromRGB(40, 47, 48)
 	Title.BackgroundTransparency = 1.000
 	Title.Position = UDim2.new(0.097560972, 0, 0.0475206636, 0)
 	Title.Size = UDim2.new(0, 111, 0, 34)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(0, 232, 255)
+	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextSize = 25.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
