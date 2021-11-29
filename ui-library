@@ -126,14 +126,14 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	GlowTabHolder.Name = "GlowTabHolder"
 	GlowTabHolder.Parent = LeftFrame
-	GlowTabHolder.BackgroundColor3 = Color3.fromRGB(117, 190, 95)
+	GlowTabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	GlowTabHolder.BackgroundTransparency = 1.000
 	GlowTabHolder.BorderSizePixel = 0
 	GlowTabHolder.Position = UDim2.new(0, -15, 0, -15)
 	GlowTabHolder.Size = UDim2.new(1, 30, 1, 30)
 	GlowTabHolder.ZIndex = 0
 	GlowTabHolder.Image = "rbxassetid://4996891970"
-	GlowTabHolder.ImageColor3 = Color3.fromRGB(255, 0, 0)
+	GlowTabHolder.ImageColor3 = Color3.fromRGB(58, 255, 0)
 	GlowTabHolder.ScaleType = Enum.ScaleType.Slice
 	GlowTabHolder.SliceCenter = Rect.new(20, 20, 280, 280)
 
@@ -157,7 +157,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	BottomText.Size = UDim2.new(0, 113, 0, 28)
 	BottomText.Font = Enum.Font.Gotham
 	BottomText.Text = bottom
-	BottomText.TextColor3 = Color3.fromRGB(89, 182, 80)
+	BottomText.TextColor3 = Color3.fromRGB(58, 255, 0)
 	BottomText.TextSize = 14.000
 	BottomText.TextTransparency = 0.300
 	BottomText.TextXAlignment = Enum.TextXAlignment.Left
@@ -431,7 +431,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 		TabTitle.Size = UDim2.new(0, 113, 0, 19)
 		TabTitle.Font = Enum.Font.Gotham
 		TabTitle.Text = text
-		TabTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TabTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
 		TabTitle.TextSize = 15.000
 		TabTitle.TextXAlignment = Enum.TextXAlignment.Left
 		TabTitle.TextTransparency = .3
@@ -549,7 +549,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.Size = UDim2.new(0, 113, 0, 42)
 			Title.Font = Enum.Font.Gotham
 			Title.Text = text
-			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title.TextSize = 15.000
 			Title.TextTransparency = 0.300
 			Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -830,7 +830,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Description.Size = UDim2.new(0, 432, 0, 31)
 			Description.Font = Enum.Font.Gotham
 			Description.Text = desc
-			Description.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Description.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Description.TextSize = 15.000
 			Description.TextTransparency = 1
 			Description.TextWrapped = true
