@@ -8,7 +8,7 @@ local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.RightControl
 
 local FluxLib = Instance.new("ScreenGui")
-FluxLib.Name = "ParadiseLib"
+FluxLib.Name = "ParadiseLib1"
 FluxLib.Parent = game.CoreGui
 FluxLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -117,7 +117,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = MainFrame
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	LeftFrame.Size = UDim2.new(0, 205, 0, 484)
 
 	LeftCorner.CornerRadius = UDim.new(0, 5)
@@ -126,7 +126,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	GlowTabHolder.Name = "GlowTabHolder"
 	GlowTabHolder.Parent = LeftFrame
-	GlowTabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	GlowTabHolder.BackgroundColor3 = Color3.fromRGB(58, 255, 0)
 	GlowTabHolder.BackgroundTransparency = 1.000
 	GlowTabHolder.BorderSizePixel = 0
 	GlowTabHolder.Position = UDim2.new(0, -15, 0, -15)
